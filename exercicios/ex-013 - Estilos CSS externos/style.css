@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+h1 {
+    color: blue;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 25px;
+}
+h2 {
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+p{
+    color: steelblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: justify;
+    
+}

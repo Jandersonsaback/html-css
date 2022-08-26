@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo classes, pagina 1</title>
+    <a href="pagina1.html" target="_blank"></a>
+    <a href="pagina2.html" target="_blank"></a>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        div {
+            background-color: aqua;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+            text-align: center;
+            display: inline-block;
+        }
+        /* 
+        (Hover) significa que quando eu passar o mouse por cima do item selecionado ele terá uma interação desejada, seja mudar de cor ou qualquer coisa */
+
+        div:hover {
+
+            background-color: rgb(240, 12, 12);
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 20px;   
+        }
+        div:hover {
+            color: rgb(0, 0, 0);
+            }
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: rgb(255, 255, 255);   
+            background-color: rgb(255, 0, 0);
+            width: 400px;         
+        }
+        div:hover > h3 {
+            display: block;
+            color: white;
+            background-color: red;
+            font-size: 5px;
+            width: 400px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1> Pagina 1</h1>
+    <div id="d1">01</div>
+    <div id="d2">02</div>   
+    <div id="d3">03</div>
+    <br>
+    <br>
+    
+    </body>
+</body>
+</html>

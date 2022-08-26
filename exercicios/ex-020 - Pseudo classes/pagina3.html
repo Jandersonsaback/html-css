@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina 3</title>
+    <style>
+
+        /* 
+            SELETORES PERSONALIZADOS
+            #  = ID
+            .  = CLASS
+            :  = PSEUDO-CLASS
+            :: = PSEUDO-ELEMENT
+            >  = CHILDREN
+        
+        */
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        a {
+            color: yellowgreen;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active {
+            color: red;
+        }
+        .especial {
+            background-color: aquamarine;
+        }
+        .especial::after {
+            content: '⇐';
+        }
+        .especial::before {
+            content: '⇒';
+        }
+
+    </style>
+</head>
+<body>
+    <h1>links</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/" target="_blank" class="especial"> youtube</a></li>
+        <li><a href="https://intranet.acpgroup.com.br/ControleAcesso/Seguranca/Login?ReturnUrl=%2fhoras" target="_blank" class="especial">intranet</a></li>
+        <li><a href="http://10.0.0.79/SSI/index.htm" target="_blank">Impressora</a></li>
+    </ul>
+</body>
+</html>
